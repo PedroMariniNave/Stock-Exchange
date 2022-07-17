@@ -1,0 +1,43 @@
+Settings:
+  command: stockexchange
+  aliases: [bolsa]
+  admin-permission: stockexchange.admin
+  update-interval: 1800 # em segundos
+  date-format: 'dd/MM/yyyy HH:mm'
+
+Messages:
+  invalid-number: '&cO valor informado é inválido.'
+  new-value:
+    - ''
+    - ' &6&lBolsa de Valores'
+    - ''
+    - ' &fTipo &8| &fQnt. Adquirida &8| &fValor Gasto &8| &fDrops Vendidos'
+    - ' &7Máquinas: &f{machines_sold} &8| &f{machines_spent} &6&lᨖ &8| &f{machines_drops} &6&lᨖ'
+    - ' &7Spawners: &f{spawners_sold} &8| &e{spawners_spent} ⛃ &8| &e{spawners_drops} ⛃'
+    - ''
+    - ' &8▶ &7Novo valor: &f{new_value}% {statistics}'
+    - ''
+
+Time-Formatter:
+  second: '&7segundo&f'
+  seconds: '&7segundos&f'
+  minute: '&7minuto&f'
+  minutes: '&7minutos&f'
+  hour: '&7hora&f'
+  hours: '&7horas&f'
+  day: '&7dia&f'
+  days: '&7dias&f'
+  now: '&falguns instantes'
+
+Number-Formatter:
+  - 'k'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
